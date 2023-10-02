@@ -1,4 +1,4 @@
-#Approach
+
 Step 1: The goal here is to identify the element which is equal to zero in the flowerbed list.
 Step 2: Then we check if the left and right element of this index position are equal to zero.
 Step 3: If the condition is true we assign 1 to the current index position.
