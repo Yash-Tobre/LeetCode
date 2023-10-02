@@ -8,4 +8,4 @@ Step 4: We return this function by starting with the indexes 0 and 0 for both th
 The Time complexity is O(T) since the target string is most likley to be bigger between the both.  
 
 **Space Complexity**  
-The space complexity is also O(T) since we might have T recursions. 
+The space complexity is also O(T) since we might have T recursions. Each recursive function call has a call stack associated with it which contains variables, return addresses and so on.
