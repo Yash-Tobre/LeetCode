@@ -6,3 +6,12 @@ The steps are like this:
 3. Check if this column tuple is already in the row dict that we created, and increment the count by 1 if it is.
 
 In this way, we store row information, compare it with columns to increment the count.
+
+Complexity Analysis:
+  Time Complexity: 
+  **𝑂(𝑛2)**
+  because we process each row and each column once.
+  
+  Space Complexity: 
+  **𝑂(𝑛2)**
+  for storing rows and columns in the hashmap.
