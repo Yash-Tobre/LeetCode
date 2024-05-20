@@ -1,7 +1,8 @@
+
 class Solution:
+    
     def removeStars(self, s: str) -> str:
-        output_list = []
-        
+        output_list = [] 
         for char in s:
             if char == '*':
                 if output_list:
